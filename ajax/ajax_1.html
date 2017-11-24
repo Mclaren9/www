@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="../Js/jquery-1.4.4.js"></script>
+<body>
+    hello
+</body>
+</html>
+<script>
+//    function handle_data(data){
+//        alert(data);
+//    }
+$.ajax({
+    type:'get',
+    url:"./demo2.php/id/1",
+    dataType:'json',
+    success:function(data){
+        alert(data.id);
+    }
+});
+</script>
+<!--<script src="http://www.bestjarvan.com/cgd/index.php"></script>-->
