@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2>ajax 与 xml 的交互</h2>
+    <input type="button" value="测试" onclick="f1()">
+</body>
+</html>
+<script type="text/javascript">
+    function f1(){
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function(){
+            if(xhr.readyState == 4){
+                //alert(xhr.responseText); //以字符串格式返回xml信息
+                //alert(xhr.responseXML); //[object XMLDocument]以xmldocument对象格式返回xml信息
+                var xmlObj = xhr.responseXML;
+                var stu = xmlObj.getElementsByTagName('student');
+                //文档对象.getElementsByTagName(tag名称);
+                //元素节点.getElementsByTagName(tag名称);
+                var s = '';
+                for(var i=0; i<stu.length; i++){
+                    var name = stu[i].getElementsByTagName("name")[0].innerHTML;
+                    var age = stu[i].getElementsByTagName("age")[0].firstChild.wholeText;
+                    var addr = stu[i].getElementsByTagName("addr")[0].innerHTML;
+                    s += "名字:"+name+"----"+"年龄:"+age+"----"+"地址:"+addr+"<br />";
+                }
+                document.body.innerHTML = s;
+            }
+        }
+        xhr.open("get", "demo.xml");
+        xhr.send(null);
+    }
+</script>
