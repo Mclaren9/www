@@ -1,0 +1,22 @@
+[ 2016-10-07T11:26:08+08:00 ] 0.0.0.0 /lhj/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007811s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000736s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000718s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003105s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001380s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001479s ]
+
+[ 2016-10-07T11:37:48+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Index/demo.html]
+[ 2016-10-07T15:18:29+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Index/modify_success.html]
+[ 2016-10-07T15:46:43+08:00 ] ERR: (ThinkException) 非法操作:look
+[ 2016-10-07T16:06:01+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Index/Index/index.html]
+[ 2016-10-07T16:09:59+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Index/look.html]

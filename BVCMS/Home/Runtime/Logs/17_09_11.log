@@ -1,0 +1,117 @@
+[ 2017-09-11T10:44:15+08:00 ] 116.247.91.242 /BVCMS/index.php/Index/search
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000710s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `tp_formal` [ RunTime:0.001669s ]
+SQL: SELECT * FROM `tp_formal` WHERE ( `EName` LIKE '%lina%' )  [ RunTime:0.002787s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000503s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000553s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data_1 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 152 行.
+NOTIC: [8] Undefined variable: data_2 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 153 行.
+NOTIC: [8] Undefined variable: data_3 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 154 行.
+NOTIC: [8] Undefined variable: data_4 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 155 行.
+NOTIC: [8] Undefined variable: data_5 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 156 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.020094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020149s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000479s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000392s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000269s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001759s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000490s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2017-09-11T10:44:42+08:00 ] 116.247.91.242 /BVCMS/index.php/Index/search
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000691s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `tp_formal` [ RunTime:0.001452s ]
+SQL: SELECT * FROM `tp_formal` WHERE ( `EName` LIKE '%jinlan%' )  [ RunTime:0.002059s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000561s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000612s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data_1 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 152 行.
+NOTIC: [8] Undefined variable: data_2 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 153 行.
+NOTIC: [8] Undefined variable: data_3 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 154 行.
+NOTIC: [8] Undefined variable: data_4 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 155 行.
+NOTIC: [8] Undefined variable: data_5 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 156 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.020184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020234s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000487s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000347s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000279s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001710s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000494s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2017-09-11T10:50:37+08:00 ] 116.247.91.242 /BVCMS/index.php/Index/search
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000711s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `tp_formal` [ RunTime:0.001477s ]
+SQL: SELECT * FROM `tp_formal` WHERE ( `EName` LIKE '%jinlan%' )  [ RunTime:0.000623s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000502s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000551s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data_1 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 152 行.
+NOTIC: [8] Undefined variable: data_2 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 153 行.
+NOTIC: [8] Undefined variable: data_3 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 154 行.
+NOTIC: [8] Undefined variable: data_4 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 155 行.
+NOTIC: [8] Undefined variable: data_5 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 156 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.019146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019193s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000504s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000429s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000258s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001797s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000506s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2017-09-11T10:50:40+08:00 ] 116.247.91.242 /BVCMS/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000870s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `tp_formal` [ RunTime:0.001530s ]
+SQL: SELECT * FROM `tp_formal`  [ RunTime:0.005394s ]
+SQL: SELECT COUNT(ID) AS tp_count FROM `tp_formal` LIMIT 1   [ RunTime:0.000754s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_formal` WHERE ( `Status` = 'Spare' ) LIMIT 1   [ RunTime:0.001376s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000569s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000621s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024383s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004390s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001177s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000283s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007404s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000880s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000925s ]
+

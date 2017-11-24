@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加数据</title>
+</head>
+<style>
+    #main_div{
+        width: 400px;
+        position: absolute;
+        left: 50%;
+        top:50%;
+        margin-left: -200px;
+        margin-top: -200px;
+    }
+    input{
+        margin-top: 5px;
+    }
+    textarea{
+        margin-top: 5px;
+    }
+</style>
+
+<script>
+    // function check_department(){
+    //     var department=document.getElementById('department');
+    //     if(department.value==null||department.value==""){
+
+    //     }
+    // }
+</script>
+<body>
+    <div id="main_div">
+        <form action="__URL__/add" method="post">
+            部　　门：<input type="text" name="department" id="department" placeholder='请输入部门'><span></span><br/>
+            用户名称：<input type="text" name="username" id='username' placeholder='请输入用户名' onfocus="check_department()"><br/>
+            问题分类：<input type="text" name="problem_classification" id="problem_classification" placeholder='请输入问题分类'><br/>
+            问题描述：<input type="text" name="problem_description" id="problem_description" placeholder='请输入问题描述'><br/>
+            解决方式：<input type="text" name="solution_method" id="solution_method" placeholder='请输入解决方式'><br/>
+            备　　注：<textarea name="remarks" cols="22" rows="10" placeholder='请输入备注'></textarea><br/>
+            <input type="submit" value="提交">
+        </form>
+    </div>
+</body>
+</html>

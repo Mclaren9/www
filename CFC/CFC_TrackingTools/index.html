@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<!--头文件以及JS文件-->
+	<head>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+		<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+        <script src="bootstrap/js/jquery.js"></script>
+        
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script src="bootstrap/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		
+		
+	</head>
+	
+	
+	<!--代码开始-->
+	<body>
+		<div class="jumbotron">
+			<div class="container">
+				<h1><span class="label label-default">CFC Payment Tracking System</span></h1>
+				<p class="text-right">logoff</p>
+				<p><a class="btn btn-primary btn-lg" href="#" role="button">Add New</a></p>	
+			</div>
+		</div>
+			
+		<!--主体容器-->
+		<div class="container">
+				<hr class="feature-divider">
+				<!--search框行开始-->
+				<div class="row">
+					<div class="col-md-4">
+						<div class="input-group">
+	                        <input type="text" class="form-control" placeholder="Please enter order number">
+	                        <span class="input-group-btn">
+	                          <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search" ></span></button>
+	                        </span>   
+	                    </div>
+					</div>
+									
+                    <div class="col-md-3 col-md-offset-5">
+                    	<div class="dropdown">
+						  <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						    Sort by
+						    <span class="caret"></span>
+						  </button>
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						    <li><a href="#">Date</a></li>
+						    <li role="separator" class="divider"></li>
+						    <li><a href="#">Sales</a></li>
+						    <li role="separator" class="divider"></li>
+						    <li><a href="#">CS</a></li>
+						    <li role="separator" class="divider"></li>
+						    <li><a href="#">TBD</a></li>
+						  </ul>
+						</div>
+                    </div>
+                </div> <!--search框行结束  --> 
+				
+				<hr class="feature-divider">				
+				<p>表格区域2</p>	
+				<hr class="feature-divider">
+			</div><!--主体容器结束-->	
+			
+			<!--页脚-->
+		<hr class="feature-divider">
+		<p class="text-center">Copyright © 2017 Jarvan Liu All rights reserved</p><!--页脚结束-->
+			
+			
+	</body>
+</html>

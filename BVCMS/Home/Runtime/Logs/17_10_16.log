@@ -1,0 +1,492 @@
+[ 2017-10-16T10:40:58+08:00 ] 116.247.91.242 /BVCMS/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000461s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000545s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006198s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000361s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000341s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000300s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001541s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000551s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-10-16T10:41:02+08:00 ] 116.247.91.242 /BVCMS/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000680s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `tp_formal` [ RunTime:0.001642s ]
+SQL: SELECT * FROM `tp_formal`  [ RunTime:0.005901s ]
+SQL: SELECT COUNT(ID) AS tp_count FROM `tp_formal` LIMIT 1   [ RunTime:0.000716s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_formal` WHERE ( `Status` = 'Spare' ) LIMIT 1   [ RunTime:0.001216s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000512s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000561s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022455s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004826s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001415s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000283s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008255s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000558s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2017-10-16T10:43:25+08:00 ] 116.247.91.242 /BVCMS/index.php/Index/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000674s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `tp_formal` [ RunTime:0.001410s ]
+SQL: INSERT INTO `tp_formal` (`Location`,`Model`,`SN`,`ComputerType`,`PurchaseDate`,`ReplaceDate`,`BUCode`,`BUDescription`,`OS`,`Office`,`Snow`,`Monitor`,`EName`,`Staff`,`Dept`,`Cityray`,`CName`,`JobTitle`,`ADAccount`,`WorkLocation`,`N1`,`SBUBL`,`JobFamily`,`Remark`,`AssetNo`,`BarCode`,`time`,`Status`,`PCName`) VALUES ('SHA04','Lenovo M710','PC0NR47F','Desktop','2017-09-18','2022-09-18','261','','Win 7','WPS','Yes','Yes','','','请选择部门','','','','','选择工作地址','','选择SBU','','','','',1508121805,'Spare','WW7CNSHA0417061') [ RunTime:0.008487s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000421s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000472s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006247s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000343s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000364s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000283s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001528s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000591s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2017-10-16T10:43:26+08:00 ] 116.247.91.242 /BVCMS/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000652s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `tp_formal` [ RunTime:0.001590s ]
+SQL: SELECT * FROM `tp_formal`  [ RunTime:0.005471s ]
+SQL: SELECT COUNT(ID) AS tp_count FROM `tp_formal` LIMIT 1   [ RunTime:0.000734s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_formal` WHERE ( `Status` = 'Spare' ) LIMIT 1   [ RunTime:0.001192s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000493s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000540s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022910s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004938s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001288s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000306s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008096s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2017-10-16T10:49:36+08:00 ] 116.247.91.242 /BVCMS/index.php/Index/modify/id/349
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000684s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `tp_formal` [ RunTime:0.001504s ]
+SQL: SELECT * FROM `tp_formal` WHERE ( `Id` = 349 ) LIMIT 1   [ RunTime:0.000870s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000522s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000574s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015680s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000483s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000429s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000357s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001945s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000526s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2017-10-16T10:51:00+08:00 ] 116.247.91.242 /BVCMS/index.php/Index/save/id/349
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000909s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `tp_formal` [ RunTime:0.001469s ]
+SQL: UPDATE `tp_formal` SET `Location`='SHA04',`Model`='Lenovo M710',`SN`='PC0FPCSW',`ComputerType`='Desktop',`PurchaseDate`='2017-08-20',`ReplaceDate`='2022-08-20',`BUCode`='261',`BUDescription`='',`OS`='Win 7',`Office`='WPS',`Snow`='Yes',`Monitor`='No',`EName`='Mi Mi',`Staff`='',`Dept`='Test',`Cityray`='',`CName`='宓密',`JobTitle`='',`ADAccount`='asi\\labuser',`WorkLocation`='上海 Shanghai',`N1`='Dio Zhang',`SBUBL`='选择SBU',`JobFamily`='',`Remark`='507room',`AssetNo`='',`BarCode`='',`time`=1508122260,`Status`='InUse',`PCName`='WW7CNSHA0417060' WHERE ( `Id` = 349 ) [ RunTime:0.006812s ]
+
+[ 2017-10-16T10:51:04+08:00 ] 116.247.91.242 /BVCMS/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000688s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `tp_formal` [ RunTime:0.001649s ]
+SQL: SELECT * FROM `tp_formal`  [ RunTime:0.007538s ]
+SQL: SELECT COUNT(ID) AS tp_count FROM `tp_formal` LIMIT 1   [ RunTime:0.000751s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_formal` WHERE ( `Status` = 'Spare' ) LIMIT 1   [ RunTime:0.001196s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000521s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000572s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022883s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004719s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001205s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000277s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007776s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000568s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2017-10-16T10:52:37+08:00 ] 116.247.91.242 /BVCMS/index.php/Index/modify/id/345
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000722s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `tp_formal` [ RunTime:0.001594s ]
+SQL: SELECT * FROM `tp_formal` WHERE ( `Id` = 345 ) LIMIT 1   [ RunTime:0.000864s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000990s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001078s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018144s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000437s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000380s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000270s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001649s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000521s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2017-10-16T10:55:34+08:00 ] 116.247.91.242 /BVCMS/index.php/Index/save/id/345
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000704s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `tp_formal` [ RunTime:0.001786s ]
+SQL: UPDATE `tp_formal` SET `Location`='SHA04',`Model`='Lenovo M710',`SN`='PC0NR46Y',`ComputerType`='Desktop',`PurchaseDate`='2017-08-20',`ReplaceDate`='2022-08-20',`BUCode`='261',`BUDescription`='',`OS`='Win 7',`Office`='Office',`Snow`='Yes',`Monitor`='Yes',`EName`='Helen He',`Staff`='626860',`Dept`='Marketing',`Cityray`='',`CName`='何佳�\�',`JobTitle`='',`ADAccount`='asi\\helehe',`WorkLocation`='上海 Shanghai',`N1`='Sam Shen',`SBUBL`='选择SBU',`JobFamily`='',`Remark`='3F Office',`AssetNo`='',`BarCode`='',`time`=1508122534,`Status`='InUse',`PCName`='WW7CNSHA0417056' WHERE ( `Id` = 345 ) [ RunTime:0.007893s ]
+
+[ 2017-10-16T10:55:37+08:00 ] 116.247.91.242 /BVCMS/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000653s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `tp_formal` [ RunTime:0.001545s ]
+SQL: SELECT * FROM `tp_formal`  [ RunTime:0.005706s ]
+SQL: SELECT COUNT(ID) AS tp_count FROM `tp_formal` LIMIT 1   [ RunTime:0.000751s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_formal` WHERE ( `Status` = 'Spare' ) LIMIT 1   [ RunTime:0.001207s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000529s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000577s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022988s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004827s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001240s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000327s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008006s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000533s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2017-10-16T10:56:58+08:00 ] 116.247.91.242 /BVCMS/index.php/Index/search
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001104s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `tp_formal` [ RunTime:0.001536s ]
+SQL: SELECT * FROM `tp_formal` WHERE ( `Model` LIKE '%ET%' )  [ RunTime:0.002152s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000441s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000494s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006508s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000379s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000338s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000256s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001547s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000514s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2017-10-16T10:57:04+08:00 ] 116.247.91.242 /BVCMS/index.php/Index/search
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000645s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `tp_formal` [ RunTime:0.001254s ]
+SQL: SELECT * FROM `tp_formal` WHERE ( `EName` LIKE '%ET%' )  [ RunTime:0.002116s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000516s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000566s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data_1 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 160 行.
+NOTIC: [8] Undefined variable: data_2 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 161 行.
+NOTIC: [8] Undefined variable: data_3 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 162 行.
+NOTIC: [8] Undefined variable: data_4 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 163 行.
+NOTIC: [8] Undefined variable: data_5 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 164 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.018980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019027s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000456s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000363s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000256s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001655s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000477s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2017-10-16T10:58:06+08:00 ] 116.247.91.242 /BVCMS/index.php/Index/search
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000706s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `tp_formal` [ RunTime:0.001548s ]
+SQL: SELECT * FROM `tp_formal` WHERE ( `EName` LIKE '%CI%' )  [ RunTime:0.002612s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000555s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000612s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data_1 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 160 行.
+NOTIC: [8] Undefined variable: data_2 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 161 行.
+NOTIC: [8] Undefined variable: data_3 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 162 行.
+NOTIC: [8] Undefined variable: data_4 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 163 行.
+NOTIC: [8] Undefined variable: data_5 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 164 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.022771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022851s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000742s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000445s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000297s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002199s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000618s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2017-10-16T10:59:45+08:00 ] 116.247.91.242 /BVCMS/index.php/Index/search
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000678s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `tp_formal` [ RunTime:0.001491s ]
+SQL: SELECT * FROM `tp_formal` WHERE ( `SN` LIKE '%PF0XTQDD%' )  [ RunTime:0.002153s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000502s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000548s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data_1 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 160 行.
+NOTIC: [8] Undefined variable: data_2 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 161 行.
+NOTIC: [8] Undefined variable: data_3 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 162 行.
+NOTIC: [8] Undefined variable: data_4 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 163 行.
+NOTIC: [8] Undefined variable: data_5 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 164 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.019240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019289s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000492s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000382s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000307s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001743s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000484s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2017-10-16T11:00:00+08:00 ] 116.247.91.242 /BVCMS/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001081s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `tp_formal` [ RunTime:0.001547s ]
+SQL: SELECT * FROM `tp_formal`  [ RunTime:0.005096s ]
+SQL: SELECT COUNT(ID) AS tp_count FROM `tp_formal` LIMIT 1   [ RunTime:0.000543s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_formal` WHERE ( `Status` = 'Spare' ) LIMIT 1   [ RunTime:0.000482s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000583s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000633s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023499s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004724s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001273s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000272s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007831s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000587s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2017-10-16T11:01:05+08:00 ] 116.247.91.242 /BVCMS/index.php/Index/search
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000661s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `tp_formal` [ RunTime:0.001484s ]
+SQL: SELECT * FROM `tp_formal` WHERE ( `PCName` LIKE '%17048%' )  [ RunTime:0.002815s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000485s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000532s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data_1 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 160 行.
+NOTIC: [8] Undefined variable: data_2 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 161 行.
+NOTIC: [8] Undefined variable: data_3 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 162 行.
+NOTIC: [8] Undefined variable: data_4 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 163 行.
+NOTIC: [8] Undefined variable: data_5 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 164 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.019439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019487s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000515s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000380s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000262s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001716s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000491s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2017-10-16T11:01:35+08:00 ] 116.247.91.242 /BVCMS/index.php/Index/search
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000758s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `tp_formal` [ RunTime:0.001639s ]
+SQL: SELECT * FROM `tp_formal` WHERE ( `EName` LIKE '%lina%' )  [ RunTime:0.002888s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000552s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000633s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data_1 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 160 行.
+NOTIC: [8] Undefined variable: data_2 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 161 行.
+NOTIC: [8] Undefined variable: data_3 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 162 行.
+NOTIC: [8] Undefined variable: data_4 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 163 行.
+NOTIC: [8] Undefined variable: data_5 /data/home/qxu2309250088/htdocs/BVCMS/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 164 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.025323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025387s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000546s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000385s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000302s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001832s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000541s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2017-10-16T21:04:34+08:00 ] 101.244.20.126 /BVCMS/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000407s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000460s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006217s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000331s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000325s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000277s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001499s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000512s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2017-10-16T21:04:34+08:00 ] 101.244.20.126 /BVCMS/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000408s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000462s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006050s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000364s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000353s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000254s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001525s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000497s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2017-10-16T21:04:38+08:00 ] 101.244.20.126 /BVCMS/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000693s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `tp_formal` [ RunTime:0.001606s ]
+SQL: SELECT * FROM `tp_formal`  [ RunTime:0.005763s ]
+SQL: SELECT COUNT(ID) AS tp_count FROM `tp_formal` LIMIT 1   [ RunTime:0.000759s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_formal` WHERE ( `Status` = 'Spare' ) LIMIT 1   [ RunTime:0.001248s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000525s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000575s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.044079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044176s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004685s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001221s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000264s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007769s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000592s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000636s ]
+

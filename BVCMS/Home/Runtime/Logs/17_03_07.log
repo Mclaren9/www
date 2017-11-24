@@ -1,0 +1,4 @@
+[ 2017-03-07T15:41:15+08:00 ] ERR: [4] syntax error, unexpected ':', expecting function (T_FUNCTION) /data/home/qxu2309250088/htdocs/BVCMS/Home/Lib/Action/IndexAction.class.php 第 36 行.
+[ 2017-03-07T15:41:17+08:00 ] ERR: [4] syntax error, unexpected ':', expecting function (T_FUNCTION) /data/home/qxu2309250088/htdocs/BVCMS/Home/Lib/Action/IndexAction.class.php 第 36 行.
+[ 2017-03-07T15:41:22+08:00 ] ERR: [4] syntax error, unexpected ':', expecting function (T_FUNCTION) /data/home/qxu2309250088/htdocs/BVCMS/Home/Lib/Action/IndexAction.class.php 第 36 行.
+[ 2017-03-07T15:41:28+08:00 ] ERR: [4] syntax error, unexpected ':', expecting function (T_FUNCTION) /data/home/qxu2309250088/htdocs/BVCMS/Home/Lib/Action/IndexAction.class.php 第 36 行.

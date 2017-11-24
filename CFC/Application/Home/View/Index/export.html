@@ -1,0 +1,76 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+      xmlns:x="urn:schemas-microsoft-com:office:excel"
+      xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+    <meta name=ProgId content=Excel.Sheet>
+    <meta name=Generator content="Microsoft Excel 11">
+</head>
+<body>
+<table border=1 cellpadding=0 cellspacing=0 width="100%" >
+    <tr>
+        <td colspan="27" align="center">
+            <!-- <h2 align="center">数据表</h2> -->
+            数据表
+        </td>
+    </tr>
+    <tr>
+        <td style='width:54pt' align="center">id</td>
+        <td style='width:54pt' align="center">Order NO.</td>
+        <td style='width:54pt' align="center">Customer Name</td>
+        <td style='width:54pt' align="center">Recipients</td>
+        <td style='width:54pt' align="center">Mobile</td>
+        <td style='width:54pt' align="center">Address</td>
+        <td style='width:54pt' align="center">Generality</td>
+        <td style='width:54pt' align="center">BU</td>
+        <td style='width:54pt' align="center">OfferPrice</td>
+        <td style='width:54pt' align="center">NetPrice</td>
+        <td style='width:54pt' align="center">addCustomerTime</td>
+        <td style='width:54pt' align="center">addExpressTime</td>
+        <!-- <td style='width:54pt' align="center">Sales</td> -->
+        <!-- <td style='width:54pt' align="center">PE</td> -->
+        <td style='width:54pt' align="center">Invoice</td>
+        <td style='width:54pt' align="center">InvoiceDate</td>
+        <td style='width:54pt' align="center">ExpressNumber</td>
+        <td style='width:54pt' align="center">ExpressDate</td>
+        <td style='width:54pt' align="center">ContactDate</td>
+        <td style='width:54pt' align="center">PayDate</td>
+        <td style='width:54pt' align="center">CustomerPaymentCycle</td>
+        <td style='width:54pt' align="center">Status</td>
+        <td style='width:54pt' align="center">Remark</td>
+    </tr>
+    <volist name='data' id='vo'>
+        <tr>
+            <td style="background-color: #FFFFFF;" align="center">{$vo.id}</td>
+            <td style="background-color: #FFFFFF;" align="center">{$vo.case_number}</td>
+            <td style="background-color: #FFFFFF;" align="center">{$vo.customer}</td>
+            <td style="background-color: #FFFFFF;" align="center">{$vo.recipients}</td>
+            <td style="background-color: #FFFFFF;" align="center">{$vo.mobile}</td>
+            <td style="background-color: #FFFFFF;" align="center">{$vo.address}</td>
+            <td style="background-color: #FFFFFF;" align="center">{$vo.generality}</td>
+            <td style="background-color: #FFFFFF;" align="center">{$vo.BU}</td>
+            <td style="background-color: #FFFFFF;" align="center">{$vo.OfferPrice}</td>
+            <td style="background-color: #FFFFFF;" align="center">{$vo.NetPrice}</td>
+            <td style="background-color: #FFFFFF;" align="center">{$vo.addCustomerTime|date="Y/m/d H:i:s", ###}</td>
+            <td style="background-color: #FFFFFF;" align="center"><if condition="$vo.addExpressTime neq ''">{$vo.addExpressTime|date="Y/m/d H:i:s", ###}<else/>--</if></td>
+            <!-- <td style="background-color: #FFFFFF;" align="center">{$vo.Sales}</td> -->
+            <!-- <td style="background-color: #FFFFFF;" align="center">{$vo.PE}</td> -->
+            <td style="background-color: #FFFFFF;" align="center">{$vo.invoice}</td>
+            <td style="background-color: #FFFFFF;" align="center">{$vo.invoice_date}</td>
+            <td style="background-color: #FFFFFF;" align="center">{$vo.express_number}</td>
+            <td style="background-color: #FFFFFF;" align="center">{$vo.express_date}</td>
+            <td style="background-color: #FFFFFF;" align="center">{$vo.contact_date}</td>
+            <td style="background-color: #FFFFFF;" align="center">{$vo.pay_date}</td>
+            <td style="background-color: #FFFFFF;" align="center">{$vo.customer_payment_cycle}</td>
+            <!-- <td style="background-color: #FFFFFF;" align="center">{$vo.status}</td> -->
+            <if condition="$vo.status eq Processing">
+                                    <td style="color:red;background-color:lightblue" align="center"><b>{$vo.status}</b></td>
+                                <else/>
+                                    <td style="color:green;background-color:lightblue" align="center"><b>{$vo.status}</b></td>
+                                </if>
+            <td style="background-color: #FFFFFF;" align="center">{$vo.remark}</td>
+        </tr>
+    </volist>
+</table>
+</body>
+</html>

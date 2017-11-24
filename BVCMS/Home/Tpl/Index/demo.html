@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+    /*修改表格第一行居中问题*/
+    #td_center{
+        text-align: center;
+    }
+
+    /*修改备注样式*/
+    #remark{
+        position: relative;
+        top: -191px;
+    }
+</style>
+<script>
+
+    //添加数据
+    function add(){
+        window.location='__URL__/add_show'
+    }
+
+    //搜索数据
+    function search(){
+        window.location='__URL__/search'
+    }
+
+    //单击表格某一行，背景色变色
+    function addListen(){
+        var  arrTrs = document.getElementsByTagName('tr');
+        for(var i=0;i<arrTrs.length;i++){
+      
+            var ss = arrTrs[i] ;
+            if(arrTrs[i].addEventListener){
+                arrTrs[i].addEventListener('click',setTable)
+            }else{
+                arrTrs[i].attachEvent("onclick",setTable);
+            }
+        }
+    }
+    function setTable(evt){
+        var  arrTrs = document.getElementsByTagName('tr');
+        for(var i=0;i<arrTrs.length;i++){
+            arrTrs[i].style.background='';
+        }
+        evt.target.parentNode.style.background='red';
+    }
+
+    //双击变色
+    function change_color(){
+        var tr=document.getElementsByTagName('tr');
+        for(var i=0;i<tr.length;i++){
+            if(tr[i].style.background=='red'){
+                tr[i].style.background='';
+            }
+        }
+    }
+
+    //导出到EXCEL
+    function jump(){
+        window.location='__URL__/export';
+    }
+
+    function tijiao(){
+        var modal = document.getElementById('modal_form');
+        modal.submit();
+    }
+</script>
+
+<head>
+    <meta charset="UTF-8">
+    <title>显示数据</title>
+</head>
+<body onload='addListen()'>
+    <table border="2" align="center" width="1200">
+        <tr>
+            <th id="td_center">Time</th>
+            <th id="td_center">PC Type</th>
+            <th id="td_center">PC Name</th>
+            <th id="td_center">E-Name</th>
+            <th id="td_center">BU Code</th>
+            <th id="td_center">Dept.</th>
+            <th id="td_center">备注</th>
+            <th id="td_center">Model</th>
+            <th id="td_center">Location</th>
+            <th id="td_center">备注</th>
+            <th id="td_center">操作</th>
+        </tr>
+
+        <volist name='data' id='vo'>
+            <tr align="center" ondblclick="change_color()" name='tr[]'>
+                <!-- <td><input type="checkbox" name="che[]"></td> -->
+                <td>{$vo.time|date='Y/m/d H:i:s',###}</td>
+                <td>{$vo.department}</td>
+                <td>{$vo.username}</td>
+                <td>{$vo.problem_classification}</td>
+                <td>{$vo.problem_description}</td>
+                <td>{$vo.solution_method}</td>
+                <td>{$vo.solution_method}</td>
+                <td>{$vo.solution_method}</td>
+                <td>{$vo.remarks}</td>
+                <td><a href="__URL__/delete/id/{$vo.Id}">删除</a>|<a href="__URL__/modify/id/{$vo.Id}">修改</a>|<a href="__URL__/look/id/{$vo.Id}">查看</a></td>
+            </tr>
+        </volist>
+    </table>
+
+    <!-- <button onclick="add()">添加数据</button> -->
+    <br/><br/>
+    <div>
+        <form action="__URL__/search" method="post">
+            <input type="text" name="data">
+            <input type="submit" value="搜索">
+        </form>
+    </div>
+    <br/>
+    <div>
+        <button onclick="jump()">导出到EXCEL</button>
+    </div>
+    <br/><br/><br/><br/>
+
+
+<!-- <h2>创建模态框（Modal）</h2> -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+    添加数据
+</button>
+
+<!-- 模态框 -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+
+                <h4 class="modal-title" id="myModalLabel">
+                    添加数据
+                </h4>
+            </div>
+
+            <div class="modal-body">
+                <form action="__URL__/add" method="post" id="modal_form">                
+                    部　　门：<select name="department" id="department" style="width:174px">
+                        <option value="Admin">Admin</option>
+                        <option value="BD">BD</option>
+                        <option value="CS">CS</option>
+                        <option value="Executive Management">Executive Management</option>
+                        <option value="Fin-BC">Fin-BC</option>
+                        <option value="Fin-SSC">Fin-SSC</option>
+                        <option value="GC Marketing">GC Marketing</option>
+                        <option value="HR">HR</option>
+                        <option value="IT">IT</option>
+                        <option value="KAM">KAM</option>
+                        <option value="Management">Management</option>
+                        <option value="Marketing">Marketing</option>
+                        <option value="New Project">New Project</option>
+                        <option value="Executive Management">Executive Management</option>
+                        <option value="Fin-BC">Fin-BC</option>
+                        <option value="Operational Certification">Operational Certification</option>
+                        <option value="partership">partership</option>
+                        <option value="Pre-Shipment Inspection">Pre-Shipment Inspection</option>
+                        <option value="QHSE">QHSE</option>
+                        <option value="Sales&Marketing">Sales&Marketing</option>
+                        <option value="TC">TC</option>
+                        <option value="Technical Support">Technical Support</option>
+                        <option value="Test">Test</option>
+                        <option value="Test-EMC">Test-EMC</option>
+                    </select><br/>
+                    用户名称：<input type="text" name="username" id='username' placeholder='请输入用户名' onfocus="check_department()"><br/>            
+                    问题分类：<select name="problem_classification" id="problem_classification" style="width:174px">
+                        <option value="系统配置">系统配置</option>
+                        <option value="软件设置">软件设置</option>
+                        <option value="硬件维护">硬件维护</option>
+                    </select><br/>
+                    问题描述：<input type="text" name="problem_description" id="problem_description" placeholder='请输入问题描述'><br/>
+                    解决方式：<select name="solution_method" id="solution_method" style="width:174px">
+                        <option value="现场">现场</option>
+                        <option value="远程">远程</option>
+                    </select><br/>
+                    <span id='remark'>备　　注：</span><textarea name="remarks" cols="22" rows="10" placeholder='请输入备注' id="remarks"></textarea><br/>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                </button>
+                <button type="button" class="btn btn-primary" onclick="tijiao()">
+                    提交更改
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

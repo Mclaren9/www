@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+	<!--头文件以及JS文件-->
+	<head>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+		<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+        <script src="bootstrap/js/jquery.js"></script>
+        
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script src="bootstrap/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<!--时间选择器相关包开始-->
+		<script src="datepicker/datepicker_zh-cn.js"></script>
+		<script src="datepicker/jquery-1.7.2.min.js"></script>
+		<script src="datepicker/jquery-ui-1.9.2.custom.min.js"></script>
+		<script src=""></script>
+		<link rel="stylesheet" href="datepicker/jquery-ui-1.9.2.custom.min.css">
+		<!--时间选择器相关包结束-->
+	</head>
+	
+	
+	<!--代码开始-->
+	<body>
+		<div class="jumbotron">
+			<div class="container">
+				<h1><span class="label label-default">CFC Payment Tracking System</span></h1>
+				<p>...</p>
+				<p><a class="btn btn-success btn-lg" role="button">New Tracking</a><a class="btn btn-success btn-lg" role="button" id="sp11"></a></p>	
+			</div>
+		</div>
+			
+		<!--主体容器-->
+		<div class="container">
+				
+				<!--CS开单行开始-->
+				
+				<!--CS开单行结束  --> 
+				
+				<div class="row">
+					<h1>Test#170602197</h1>
+				</div>
+				<hr class="feature-divider">				
+					<div class="row">					
+						<div class="col-md-6">
+							<div class="input-group">
+							  <span class="input-group-addon">*案件号码</span>
+							  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+							  <span class="input-group-addon">C</span>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="">请选择总类</span>
+								<select class="form-control" name="search_key">		                            
+		                            <option>RS</option>
+		                            <option>RT</option>
+		                            <option>EMC</option>
+		                            <option>Others</option>
+                        		</select>
+                        	</div>
+						</div>
+					</div>
+					<br />
+					<div class="row">					
+						<div class="col-md-6">
+							<div class="input-group">
+							  <span class="input-group-addon">*客户名称</span>
+							  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+							  <span class="input-group-addon">C</span>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="">请选择BU</span>
+								<select class="form-control" name="search_key">		                            
+		                            <option>528</option>
+		                            <option>RT</option>
+		                            <option>EMC</option>
+		                            <option>Others</option>
+                        		</select>
+                        	</div>
+						</div>
+					</div>
+					<br />
+					<div class="row">					
+						<div class="col-md-6">
+							<div class="input-group">
+							  <span class="input-group-addon">*收件人</span>
+							  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+							  <span class="input-group-addon">C</span>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="input-group">
+							  <span class="input-group-addon">Offer Price (¥)</span>
+							  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+							  <span class="input-group-addon">C</span>
+							</div>
+						</div>	
+					</div>
+					<br />
+					<div class="row">					
+						<div class="col-md-6">
+							<div class="input-group">
+							  <span class="input-group-addon">电话/手机</span>
+							  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+							  <span class="input-group-addon">C</span>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="input-group">
+							  <span class="input-group-addon">Net &nbsp;Price (¥)</span>
+							  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+							  <span class="input-group-addon">C</span>
+							</div>
+						</div>	
+					</div>
+					<br />
+					<div class="row">
+						<div class="col-md-6">
+							<textarea class="form-control" rows="1" placeholder="请填写收件地址..."></textarea>
+						</div>
+						<div class="col-md-3">
+							<div class="input-group">
+								<span class="input-group-addon" id="">请选择Sales</span>
+								<select class="form-control" name="search_key">		                            
+		                            <option>528</option>
+		                            <option>RT</option>
+		                            <option>EMC</option>
+		                            <option>Others</option>
+                        		</select>
+                        	</div>
+						</div>
+						<div class="col-md-3">
+							<div class="input-group">
+								<span class="input-group-addon" id="">请选择PE</span>
+								<select class="form-control" name="search_key">		                            
+		                            <option>528</option>
+		                            <option>RT</option>
+		                            <option>EMC</option>
+		                            <option>Others</option>
+                        		</select>
+                        	</div>
+						</div>
+					</div>
+					<br />
+					<div class="row">
+						<div class="col-md-6">
+							<input class="btn btn-success btn-lg" type="submit" value="Submit">
+						</div>
+					</div>
+				<hr class="feature-divider">
+					<div class="row">					
+						<div class="col-md-6">
+							<div class="input-group">
+							  <span class="input-group-addon">*发票号码</span>
+							  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+							  <span class="input-group-addon">F</span>
+							</div>
+						</div>						
+					</div>
+					<br />
+					<div class="row">					
+						<div class="col-md-6">
+							<div class="input-group">
+							  <span class="input-group-addon">*开票日期</span>
+							  <input type="text" id="st1" class="form-control" aria-label="Amount (to the nearest dollar)">
+							  <span class="input-group-addon">F</span>
+							</div>
+						</div>						
+					</div>
+					<br />
+					<div class="row">					
+						<div class="col-md-6">
+							<div class="input-group">
+							  <span class="input-group-addon">*快递单号</span>
+							  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+							  <span class="input-group-addon">F</span>
+							</div>
+						</div>						
+					</div>
+					<br />
+					<div class="row">					
+						<div class="col-md-6">
+							<div class="input-group">
+							  <span class="input-group-addon">*寄件日期</span>
+							  <input type="text" id="st2" class="form-control" aria-label="Amount (to the nearest dollar)">
+							  <span class="input-group-addon">F</span>
+							</div>
+						</div>						
+					</div>
+					<br />
+					<div class="row">
+						<div class="col-md-6">
+							<input class="btn btn-warning btn-lg" type="submit" value="Update">
+						</div>
+					</div>
+				<hr class="feature-divider">
+					<div class="row">					
+						<div class="col-md-6">
+							<div class="input-group">
+							  <span class="input-group-addon">联系日期</span>
+							  <input type="text" id="st3" class="form-control" aria-label="Amount (to the nearest dollar)">
+							  <span class="input-group-addon">C</span>
+							</div>
+						</div>						
+					</div>
+					<br />
+					<div class="row">					
+						<div class="col-md-6">
+							<div class="input-group">
+							  <span class="input-group-addon">预计付款日期</span>
+							  <input type="text" id="st4" class="form-control" aria-label="Amount (to the nearest dollar)">
+							  <span class="input-group-addon">C</span>
+							</div>
+						</div>						
+					</div>
+					<br />
+					<div class="row">					
+						<div class="col-md-6">
+							<div class="input-group">
+							  <span class="input-group-addon">客户付款周期（天）</span>
+							  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+							  <span class="input-group-addon">C</span>
+							</div>
+						</div>						
+					</div>
+					<br />
+					<div class="row">
+						<div class="col-md-6 form-group">
+							<textarea class="form-control" placeholder="Remark"></textarea>
+						</div>
+					</div>
+					<br />
+					<div class="row">
+						<div class="col-md-6">
+							<input class="btn btn-primary btn-lg" type="submit" value="Save">							
+						</div>
+					</div>
+				<hr class="feature-divider">					
+						<div class="row">							
+							<div class="col-md-6 form-group">
+								<fieldset id="fi"><textarea class="form-control">Last modified by XXX on 2017-10-23 23:05:18</textarea></fieldset>	
+							</div>												
+							<div class="col-md-6">
+								<input class="btn btn-danger btn-lg" type="submit" value="Close">
+							</div>
+						</div>							
+				<br />					
+					
+				<hr class="feature-divider">
+			</div><!--主体容器结束-->	
+			
+			<!--页脚-->
+		<hr class="feature-divider">
+		<p class="text-center">Copyright © 2017 Jarvan Liu All rights reserved</p><!--页脚结束-->
+			
+			
+	</body>
+	
+
+</html>
+
+<script>
+	$("#st1").datepicker({ dateFormat: "yy-mm-dd" });
+	$("#st2").datepicker({ dateFormat: "yy-mm-dd" });
+	$("#st3").datepicker({ dateFormat: "yy-mm-dd" });
+	$("#st4").datepicker({ dateFormat: "yy-mm-dd" });
+	$("#st5").datepicker({ dateFormat: "yy-mm-dd" });
+	$("#st6").datepicker({ dateFormat: "yy-mm-dd" });
+	$("#fi").attr("disabled", true);
+	$("#sp11").html("hello");
+</script>

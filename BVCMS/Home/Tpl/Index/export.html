@@ -1,0 +1,83 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 11">
+</head>
+<body>
+  <table border=1 cellpadding=0 cellspacing=0 width="100%" >
+      <tr>
+            <td colspan="27" align="center">
+             <!-- <h2 align="center">数据表</h2> -->
+             数据表
+           </td>
+      </tr>
+      <tr>
+        <td style='width:54pt' align="center">Id</td>
+        <td style='width:54pt' align="center">Location</td>
+        <td style='width:54pt' align="center">Model</td>
+        <td style='width:54pt' align="center">*S/N</td>
+        <td style='width:54pt' align="center">PCName</td>
+        <td style='width:54pt' align="center">Computer-Type</td>
+        <td style='width:54pt' align="center">Purhase Date</td>
+        <td style='width:54pt' align="center">Replace Date</td>
+        <td style='width:54pt' align="center">BU Code</td>
+        <td style='width:54pt' align="center">BU Description</td>
+        <td style='width:54pt' align="center">OS</td>
+        <td style='width:54pt' align="center">Office</td>
+        <td style='width:54pt' align="center">Snow</td>
+        <td style='width:54pt' align="center">Monitor</td>
+        <td style='width:54pt' align="center">E-Name</td>
+        <td style='width:54pt' align="center">Staff</td>
+        <td style='width:54pt' align="center">Dept</td>
+        <td style='width:54pt' align="center">Cityray</td>
+        <td style='width:54pt' align="center">C-Name</td>
+        <td style='width:54pt' align="center">Job-Title</td>
+        <td style='width:54pt' align="center">AD Account</td>
+        <td style='width:54pt' align="center">Work Location</td>
+        <td style='width:54pt' align="center">N+1</td>
+        <td style='width:54pt' align="center">SBU/BL</td>
+        <td style='width:54pt' align="center">Job Family</td>
+        <td style='width:54pt' align="center">PO NO</td>
+        <td style='width:54pt' align="center">AFI NO</td>
+        <td style='width:54pt' align="center">Remark</td>
+        <!-- <td style='width:54pt' align="center">时间</td> -->
+     </tr>
+     <volist name='data' id='vo'>
+      <tr>
+        <td align="center">{$vo.Id}</td>
+        <td style="background-color: #00CC00;" align="center">{$vo.Location}</td>
+        <td style="background-color: #00adee;" align="center">{$vo.Model}</td>
+        <td style="background-color: #00CC00;" align="center">{$vo.SN}</td>
+        <td style="background-color: #00CC00;" align="center">{$vo.PCName}</td>
+        <td style="background-color: #00adee;" align="center">{$vo.ComputerType}</td>
+        <td style="background-color: #00adee;" align="center">{$vo.PurchaseDate}</td>
+        <td style="background-color: #00CC00;" align="center">{$vo.ReplaceDate}</td>
+        <td style="background-color: #00CC00;" align="center">{$vo.BUCode}</td>
+        <td style="background-color: #00adee;" align="center">{$vo.BUDescription}</td>
+        <td style="background-color: #00CC00;" align="center">{$vo.OS}</td>
+        <td style="background-color: #00adee;" align="center">{$vo.Office}</td>
+        <td style="background-color: #00adee;" align="center">{$vo.Snow}</td>
+        <td style="background-color: #00CC00;" align="center">{$vo.Monitor}</td>
+        <td style="background-color: #00CC00;" align="center">{$vo.EName}</td>
+        <td style="background-color: #00adee;" align="center">{$vo.Staff}</td>
+        <td style="background-color: #00CC00;" align="center">{$vo.Dept}</td>
+        <td style="background-color: #00adee;" align="center">{$vo.Cityray}</td>
+        <td style="background-color: #00adee;" align="center">{$vo.CName}</td>
+        <td style="background-color: #00CC00;" align="center">{$vo.JobTitle}</td>
+        <td style="background-color: #00CC00;" align="center">{$vo.ADAccount}</td>
+        <td style="background-color: #00adee;" align="center">{$vo.WorkLocation}</td>
+        <td style="background-color: #00CC00;" align="center">{$vo.N1}</td>
+        <td style="background-color: #00adee;" align="center">{$vo.SBUBL}</td>
+        <td style="background-color: #00adee;" align="center">{$vo.JobFamily}</td>
+        <td style="background-color: #00CC00;" align="center">{$vo.PoNo}</td>
+        <td style="background-color: #00CC00;" align="center">{$vo.AfiNo}</td>
+        <td style="background-color: #00adee;" align="center">{$vo.Remark}</td>
+        <!-- <td style="background-color: #00adee;" align="center">{$vo.time}</td> -->
+     </tr>
+     </volist>
+ </table>
+ </body>
+ </html>
