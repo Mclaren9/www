@@ -404,7 +404,7 @@
             <fieldset id="fi"><textarea class="form-control" id="text">Last modified by XXX on 2017-10-23 23:05:18</textarea></fieldset>
         </div>
         <div class="col-md-6">
-            <a href="__URL__/status/id/{$data.id}"><input class="btn btn-danger btn-lg" type="submit" value="Close"></a>
+            <a href="__URL__/status/id/{$data.id}" onclick="javascript:return panduan()"><input class="btn btn-danger btn-lg" type="submit" value="Close"></a>
         </div>
     </div>
     <br />
@@ -501,6 +501,11 @@
         $("#form3 input").attr('disabled', true);
         $("#form3 textarea").attr('disabled', true);
         $("#form2 input").attr('disabled', true);
+    }
+
+    //判断close按钮是否有跳转
+    function panduan(){
+        return true;
     }
 </script>
 

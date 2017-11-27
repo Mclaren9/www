@@ -6,7 +6,7 @@ return array(
      *
      */
     'DB_HOST' => 'qdm118177514.my3w.com',
-    'DB_TYPE' => 'mysql',
+    'DB_TYPE' => 'mysqli',
     'DB_NAME' => 'qdm118177514_db',
     'DB_USER' => 'qdm118177514',
     'DB_PWD' => 'java923lhj',

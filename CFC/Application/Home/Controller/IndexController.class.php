@@ -219,6 +219,9 @@ class IndexController extends BaseController {
         if($lastData['case_number'] == '' || $lastData['customer'] == '' || $lastData['recipients'] == '' || $lastData['address'] == '' || $lastData['invoice'] == '' || $lastData['invoice_date'] == '' || $lastData['express_number'] == '' || $lastData['express_date'] == ''){
             $this->error("请确认用户和单号信息填写完整");
         }
+        if($lastData['mobile'] == '' || $lastData['remark1'] == '' || $lastData['generality'] == '' || $lastData['BU'] == '' || $lastData['OfferPrice'] == '' || $lastData['NetPrice'] == '' || $lastData['Sales'] == '' || $lastData['PE'] == ''){
+            $this->error("请确认用户和单号信息填写完整");
+        }
         $arr = I("post.");
         $arr['action'] = session('name');
         $arr['time'] = time();
@@ -258,6 +261,12 @@ class IndexController extends BaseController {
 	    if($arr['status'] == 'closed'){
 	        $this->error("订单为关闭状态，无法修改");
 	    }
+        if($arr['case_number'] == '' || $arr['customer'] == '' || $arr['recipients'] == '' || $arr['address'] == '' || $arr['invoice'] == '' || $arr['invoice_date'] == '' || $arr['express_number'] == '' || $arr['express_date'] == ''){
+            $this->error("请确认用户和单号信息填写完整");
+        }
+        if($arr['mobile'] == '' || $arr['remark1'] == '' || $arr['generality'] == '' || $arr['BU'] == '' || $arr['OfferPrice'] == '' || $arr['NetPrice'] == '' || $arr['Sales'] == '' || $arr['PE'] == ''){
+            $this->error("请确认用户和单号信息填写完整");
+        }
 	    $arr['status'] = 'closed';
 	    $result = $dataModel->where($data)->save($arr);
 	    if($result){

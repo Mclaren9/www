@@ -26,9 +26,10 @@
         <td style='width:54pt' align="center">OfferPrice</td>
         <td style='width:54pt' align="center">NetPrice</td>
         <td style='width:54pt' align="center">addCustomerTime</td>
-        <td style='width:54pt' align="center">addExpressTime</td>
-        <!-- <td style='width:54pt' align="center">Sales</td> -->
-        <!-- <td style='width:54pt' align="center">PE</td> -->
+        <td style='width:54pt' align="center">ExpressTime</td>
+        <td style='width:54pt' align="center">Sales</td>
+        <td style='width:54pt' align="center">PE</td>
+        <td style='width:54pt' align="center">CS</td>
         <td style='width:54pt' align="center">Invoice</td>
         <td style='width:54pt' align="center">InvoiceDate</td>
         <td style='width:54pt' align="center">ExpressNumber</td>
@@ -52,9 +53,10 @@
             <td style="background-color: #FFFFFF;" align="center">{$vo.OfferPrice}</td>
             <td style="background-color: #FFFFFF;" align="center">{$vo.NetPrice}</td>
             <td style="background-color: #FFFFFF;" align="center">{$vo.addCustomerTime|date="Y/m/d H:i:s", ###}</td>
-            <td style="background-color: #FFFFFF;" align="center"><if condition="$vo.addExpressTime neq ''">{$vo.addExpressTime|date="Y/m/d H:i:s", ###}<else/>--</if></td>
-            <!-- <td style="background-color: #FFFFFF;" align="center">{$vo.Sales}</td> -->
-            <!-- <td style="background-color: #FFFFFF;" align="center">{$vo.PE}</td> -->
+            <td style="background-color: #FFFFFF;" align="center"><if condition="$vo.addExpressTime neq ''">{$vo.express_date|date="Y/m/d H:i:s", ###}<else/>--</if></td>
+            <td style="background-color: #FFFFFF;" align="center">{$vo.Sales}</td>
+            <td style="background-color: #FFFFFF;" align="center">{$vo.PE}</td>
+            <td style="background-color: #FFFFFF;" align="center">{$vo.action}</td>
             <td style="background-color: #FFFFFF;" align="center">{$vo.invoice}</td>
             <td style="background-color: #FFFFFF;" align="center">{$vo.invoice_date}</td>
             <td style="background-color: #FFFFFF;" align="center">{$vo.express_number}</td>

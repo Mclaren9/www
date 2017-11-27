@@ -141,6 +141,7 @@
 	                            <li><a href="__URL__/index/condition/addCustomerTime">Date</a></li>
 	                            <li><a href="__URL__/index/condition/Sales">Sales</a></li>
 	                            <li><a href="__URL__/index/condition/action">CS</a></li>
+	                            <li><a href="__URL__/index/condition/invoice">InvoiceNo</a></li>
 	                            <li><a href="__URL__/index/condition/TBD">TBD</a></li>
 	                          </ul>
 	                        </div>
@@ -165,6 +166,7 @@
 							<th>CreateTime</th>
 							<th>ExpressTime</th>
 							<th>ExpressNo.</th>
+							<th>InvoiceNo.</th>
 							<th>CS</th>
 							<th id="td_center" colspan='2'>Action</th>
 						</tr>
@@ -184,6 +186,7 @@
 								<td>{$vo.addCustomerTime|date="Y/m/d H:i:s",###}</td>
 								<td><if condition="$vo.addExpressTime neq ''">{$vo.addExpressTime|date="Y/m/d H:i:s",###}<else/>--</if></td>
 								<td>{$vo.express_number}</td>
+								<td>{$vo.invoice}</td>
 								<td>{$vo.action}</td>
 								<td>
 									<a href="__URL__/modify/id/{$vo.id}">
