@@ -6,16 +6,16 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>CFC Login</title>
 		<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
-		<link rel="stylesheet" href="/CFC/Public/bootstrap/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="/www/CFC/Public/bootstrap/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 		<!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
-		<link rel="stylesheet" href="/CFC/Public/bootstrap/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link rel="stylesheet" href="/www/CFC/Public/bootstrap/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-        <script src="/CFC/Public/bootstrap/js/jquery.js"></script>
+        <script src="/www/CFC/Public/bootstrap/js/jquery.js"></script>
         
 		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-		<script src="/CFC/Public/bootstrap/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="/www/CFC/Public/bootstrap/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 	</head>
 	<body>
@@ -25,7 +25,7 @@
 					<div class="well col-md-10 col-md-offset-1">
 						<h2>Welcome</h2>
 						</br>
-						<form action="/CFC/index.php/Home/Login/check_login" method="post">
+						<form action="/www/CFC/index.php/Home/Login/check_login" method="post">
 							<div class="input-group input-group-lg">
 								<span class="input-group-addon" id="sizing-addon1"><i class="glyphicon glyphicon-user" aria-hidden="true"></i></span>
 								<input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1" name="username" id="username">
